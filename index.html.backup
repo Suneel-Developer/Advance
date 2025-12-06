@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADVANCE - Trust the Experts</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!-- Sub Nav -->
+    <div class="subnav">
+        <div class="container">
+            <div class="navsub-meta">
+                <a href="tel:01244564564">01244 564 564</a>
+                <a href="mailto:newbusiness@advance.online">newbusiness@advance.online</a>
+            </div>
+
+            <div class="navsub-links">
+                <a href="#" target="_blank">Trustpilot reviews</a>
+                <a href="#" target="_blank">Latest news</a>
+                <a href="#" target="_blank">IR35 hub</a>
+                <a href="#" target="_blank">Request a call back</a>
+                <a href="#" target="_blank">Login</a>
+                <a href="#" target="_blank" class="login">April 2026</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <!-- Logo -->
+                <a href="#" class="logo">
+                    <img src="./assets/logo-advance.webp" alt="Advance Logo" loading="lazy" class="logo-img">
+                </a>
+
+                <!-- Desktop Navigation -->
+                <nav class="nav-desktop">
+                    <ul class="nav-menu">
+                        <!-- Umbrella link & Dropdown -->
+                        <li class="nav-item has-dropdown">
+                            <a href="#" role="button" class="nav-link">
+                                Umbrella
+                            </a>
+
+                            <div class="dropdown-content">
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Umbrella overview</a></li>
+                                    <li><a href="#">Rewards</a></li>
+                                    <li><a href="#">FAQs</a></li>
+                                    <li><a href="#">Lighthouse Club Charity</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <!-- CIS link & Dropdown -->
+                        <li class="nav-item has-dropdown">
+                            <a href="#" role="button" class="nav-link">
+                                CIS
+                            </a>
+
+                            <div class="dropdown-content">
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">CIS overview</a></li>
+                                    <li><a href="#">Tax Return</a></li>
+                                    <li><a href="#">Rewards</a></li>
+                                    <li><a href="#">FAQs</a></li>
+                                    <li><a href="#">Lighthouse Club Charity</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <!-- Limited link & Dropdown -->
+                        <li class="nav-item has-dropdown">
+                            <a href="#" role="button" class="nav-link">
+                                Limited
+                            </a>
+
+                            <div class="dropdown-content">
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Limited overview</a></li>
+                                    <li><a href="#">FAQs</a></li>
+                                    <li><a href="#">FreeAgent</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <!-- Tax Return link & Dropdown -->
+                        <li class="nav-item has-dropdown">
+                            <a href="#" role="button" class="nav-link">
+                                Tax Return
+                            </a>
+
+                            <div class="dropdown-content">
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Expenses claim services</a></li>
+                                    <li><a href="#">Tax Return</a></li>
+                                    <li><a href="#">Tax Rebate Calculator</a></li>
+                                    <li><a href="#">Complete your tax return</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <!-- About link & Dropdown -->
+                        <li class="nav-item has-dropdown">
+                            <a href="#" role="button" class="nav-link">
+                                About
+                            </a>
+
+                            <div class="dropdown-content">
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Meet our Directors</a></li>
+                                    <li><a href="#">Core values</a></li>
+                                    <li><a href="#">Accreditations</a></li>
+                                    <li><a href="#">Agency Partners</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <!-- Join link & Dropdown -->
+                        <li class="nav-item has-dropdown">
+                            <a href="#" role="button" class="nav-link">
+                                Join
+                            </a>
+
+                            <div class="dropdown-content">
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Join today</a></li>
+                                    <li><a href="#">Agency partnership</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <!-- Contact link -->
+                        <li class="nav-item">
+                            <a href="#" class="nav-link contact-link">Contact</a>
+                        </li>
+
+                        <!-- Search Icon with Dropdown -->
+                        <li class="nav-item has-dropdown">
+                            <a href="#" role="button" class="search-toggle" aria-label="Toggle search">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </a>
+
+                            <!-- Search Dropdown -->
+                            <div class="dropdown-content search-dropdown-content">
+                                <div class="search-dropdown">
+                                    <div class="search-box">
+                                        <input type="text" class="search-input" placeholder="Search">
+
+                                        <button class="search-submit" aria-label="Submit search">
+                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </nav>
+
+                <!-- Mobile Menu Toggle -->
+                <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <div class="mobile-menu-header">
+            <a href="#">
+                <img src="./assets/logo-advance-blue.png" alt="Advance Logo" loading="lazy" class="logo-img">
+            </a>
+
+            <button class="mobile-menu-close " aria-label="Close mobile menu">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+
+        <nav class="mobile-nav">
+            <ul class="mobile-nav-menu">
+                <li class="mobile-nav-item has-dropdown">
+
+                    <a href="#" class="mobile-nav-link">
+                        Umbrella
+                    </a>
+
+                    <ul class="mobile-dropdown-menu">
+                        <li><a href="#">Umbrella overview</a></li>
+                        <li><a href="#">Rewards</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Lighthouse Club Charity</a></li>
+                    </ul>
+                </li>
+
+                <li class="mobile-nav-item has-dropdown">
+                    <a href="#" class="mobile-nav-link">
+                        CIS
+                    </a>
+
+                    <ul class="mobile-dropdown-menu">
+                        <li><a href="#">CIS overview</a></li>
+                        <li><a href="#">Tax Return</a></li>
+                        <li><a href="#">Rewards</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Lighthouse Club Charity</a></li>
+                    </ul>
+                </li>
+
+                <li class="mobile-nav-item has-dropdown">
+                    <a href="#" class="mobile-nav-link">
+                        Limited
+                    </a>
+
+                    <ul class="mobile-dropdown-menu">
+                        <li><a href="#">Limited overview</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">FreeAgent</a></li>
+                    </ul>
+                </li>
+
+                <li class="mobile-nav-item has-dropdown">
+                    <a href="#" class="mobile-nav-link">
+                        Tax Return
+                    </a>
+
+                    <ul class="mobile-dropdown-menu">
+                        <li><a href="#">Expenses claim services</a></li>
+                        <li><a href="#">Tax Return</a></li>
+                        <li><a href="#">Tax Rebate Calculator</a></li>
+                        <li><a href="#">Complete your tax return</a></li>
+                    </ul>
+                </li>
+
+                <li class="mobile-nav-item has-dropdown">
+                    <a href="#" class="mobile-nav-link">
+                        About
+                    </a>
+
+                    <ul class="mobile-dropdown-menu">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Meet our Directors</a></li>
+                        <li><a href="#">Core values</a></li>
+                        <li><a href="#">Accreditations</a></li>
+                        <li><a href="#">Agency Partners</a></li>
+                    </ul>
+                </li>
+
+                <li class="mobile-nav-item has-dropdown">
+                    <a href="#" class="mobile-nav-link">
+                        Join
+                    </a>
+                    <ul class="mobile-dropdown-menu">
+                        <li><a href="#">Join today</a></li>
+                        <li><a href="#">Agency partnership</a></li>
+                    </ul>
+                </li>
+
+                <li class="mobile-nav-item">
+                    <a href="#" class="mobile-nav-link contact-link">Contact</a>
+                </li>
+
+                <li class="mobile-nav-item has-dropdown">
+                    <a href="#" class="mobile-nav-link">
+                        Search
+                    </a>
+
+                    <ul class="mobile-dropdown-menu">
+                        <li>
+                            <div class="mobile-search-box">
+                                <div class="search-box">
+                                    <input type="text" class="search-input" placeholder="Search">
+
+                                    <button class="search-submit" aria-label="Submit search">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+            <!-- Additional Links -->
+            <div class="mobile-additional-links">
+                <a href="#">Trustpilot reviews</a>
+                <a href="#">Latest news</a>
+                <a href="#">IR35 hub</a>
+                <a href="#">Request a call back</a>
+                <a href="#">Login</a>
+                <a href="#">April 2026</a>
+            </div>
+        </nav>
+    </div>
+
+    <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Expert support</h1>
+            <p>Rated highly by clients for years, we're happy to make a difference.</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
