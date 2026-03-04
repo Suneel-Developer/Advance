@@ -64,11 +64,11 @@ body {
     border-left: 1px solid #353965;
 }
 
-/* @media screen and (max-width: 768px) {
-    .subnav {
+@media screen and (max-width: 768px) {
+    .navsub-links {
         display: none;
     }
-} */
+}
 
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Header Styles */
 .header {
@@ -536,9 +536,9 @@ body {
         display: none;
     }
 
-    /* .subnav {
+    .navsub-links {
         display: none;
-    } */
+    }
 
     .search-wrapper {
         display: none;
