@@ -64,11 +64,11 @@ body {
     border-left: 1px solid #353965;
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .subnav {
         display: none;
     }
-}
+} */
 
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Header Styles */
 .header {
